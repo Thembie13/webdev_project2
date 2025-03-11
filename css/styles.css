@@ -1,0 +1,64 @@
+/* imported google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+body {
+  font-family: 'Big Shoulders', Ariel;
+  background-color: lightseagreen;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lightseagreen;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul { 
+  list-style: none; 
+  padding: 0; 
+}
+
+nav ul li{
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover { 
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+  color: darkred;
+}
+
+section {
+  margin-bottom: 20 px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10 px 0;
+}
+
+footer { 
+  background-color: orange;
+  text-align: center;
+}
+
+footer img {
+  width: 40px;
+  height: auto;
+  margin: 5px;
+}
+
+
