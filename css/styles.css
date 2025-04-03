@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
 
 body {
-  font-family: 'Big Shoulders', cursive, sans-serif;
+  font-family: 'Big Shoulders', Verdana, sans-serif;
   background-color: #D1FFBD;
   color: black;
   margin: 0;
@@ -89,6 +89,31 @@ section {
   list-style: none;
 }
 
+/* deals with list style on book page */ 
+
+#myfavoritebook {
+  list-style: none;
+}
+
+#myauthors {
+  list-style: none;
+}
+
+#mybooktubers {
+  list-style: none;
+}
+
+#mycurrentread {
+  list-style: none;
+}
+
+#myread {
+  list-style: none;
+  background-color: yellowgreen;
+}
+
+
+
 /* deals with the stuff in the footer */
 
 footer { 
@@ -101,5 +126,7 @@ footer img {
   height: auto;
   margin: 10px;
 }
+
+
 
 
